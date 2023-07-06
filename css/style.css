@@ -162,7 +162,7 @@ footer {
     padding: 5px;
     margin: 5px;
     color: rgb(255, 255, 255);
-    background-color:  rgb(2, 109, 16);
+    background-color: rgb(2, 109, 16);
     font-size: 1em;
     border-radius: 5px;
     border-width: 8px;
@@ -171,11 +171,8 @@ footer {
   }
 }
 
-
 @media screen and (max-width: 768px) {
-
-
-  .inicio{ 
+  .inicio {
     height: 30vh;
     background-image: url(../assets/portada.webp);
     background-repeat: no-repeat;
@@ -183,14 +180,14 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+  }
 
-  header button{
+  header button {
     padding: 3px;
     margin-top: 100px;
     color: rgb(255, 255, 255);
     background-color: rgb(2, 109, 16);
-    font-size: .5em;
+    font-size: 0.5em;
     border-radius: 2px;
     border-width: 4px;
     border-color: rgb(5, 131, 37);
@@ -206,4 +203,20 @@ footer {
     border-radius: 2px;
     border-width: 4px;
     border-color: rgb rgb(5, 131, 37);
-    font-style: oblique; } 
+    font-style: oblique;
+  }
+}
+.headercontacto {
+  height: 100vh;
+  background-image: url(../assets/contactoimagen.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-style: oblique;
+  color: rgb(0, 255, 136);
+  
+}
