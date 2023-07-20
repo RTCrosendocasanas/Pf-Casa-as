@@ -1,0 +1,32 @@
+// _navbar.scss
+.navbar-brand {
+  img {
+    transition: transform 0.3s;
+  }
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.navegacion {
+  div {
+    background-color: $secondaryColor;
+  }
+}
+
+.navegacion {
+  div {
+    ul {
+      li {
+        a {
+          color: $primary-color;
+          display: flex;
+          flex-direction: row;
+          margin-right: 20px;
+          margin-left: 20px;
+          font-size: 1.5em;
+        }
+      }
+    }
+  }
+}

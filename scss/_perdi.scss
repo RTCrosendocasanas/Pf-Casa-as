@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #c2e8c2; /* Color de fondo verde claro */
+}
+
+header {
+  background-color: #4caf50; /* Color de fondo verde oscuro */
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  color: white;
+}
+
+main {
+  padding: 20px;
+}
+
+.report-form {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.report-form h2 {
+  color: #4caf50;
+  margin-bottom: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+
+  label {
+    margin-bottom: 5px;
+  }
+
+  input,
+  select,
+  textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+
+  button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+
+    /* Efecto al pasar el cursor sobre el botón */
+    &:hover {
+      background-color: #45a045;
+    }
+  }
+}
+
+footer {
+  background-color: #4caf50;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}

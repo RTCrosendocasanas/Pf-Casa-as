@@ -1,0 +1,56 @@
+/* Estilos para el encabezado */
+.headercontacto {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+  h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+}
+
+/* Estilos para el formulario */
+.attractive-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #00a388;
+  border-radius: 5px;
+  background-color: #00701c;
+  box-shadow: 0 4px 8px rgba(14, 168, 179, 0.1);
+
+  div {
+    margin-bottom: 15px;
+    label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    input,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      transition: border-color 0.3s ease-in-out;
+      &:focus {
+        outline: none;
+        border-color: #06bb00;
+      }
+    }
+    button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background-color: #005d9b;
+      color: #00c4ba;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+      &:hover {
+        background-color: #2980b9;
+      }
+    }
+  }
+}

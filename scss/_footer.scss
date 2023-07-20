@@ -1,0 +1,44 @@
+footer {
+  background-color: rgba(231, 255, 214, 0.966);
+
+  .info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    flex-direction: row;
+  }
+
+  .redes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    flex-direction: row; /* Mostrar elementos en una fila */
+  }
+
+  .whatsapp,
+  .facebook,
+  .instagram {
+    margin: 10px;
+  }
+
+  .whatsapp svg,
+  .facebook svg,
+  .instagram svg {
+    width: 50px;
+    height: 50px;
+  }
+
+  .whatsapp svg {
+    fill: #3a9c37;
+  }
+
+  .facebook svg {
+    fill: #330ed4;
+  }
+
+  .instagram svg {
+    fill: #0490b3;
+  }
+}

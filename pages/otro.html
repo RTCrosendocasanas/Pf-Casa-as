@@ -24,7 +24,7 @@
       crossorigin="anonymous"
     />
     <!-- link css -->
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/main.css" />
     <title>Rescataditos</title>
   </head>
   <body>
@@ -68,6 +68,36 @@
         </div>
       </div>
     </nav>
+    <header>
+      <!-- Encabezado del sitio web-->
+      <h1>Perdí mi Mascota</h1>
+    </header>
+    <main>
+      <section class="report-form">
+        <h2>Reportar Mascota Perdida</h2>
+        <form>
+          <label for="pet-name">Nombre de la Mascota:</label>
+          <input type="text" id="pet-name" name="pet-name" required />
+
+          <label for="pet-type">Tipo de Mascota:</label>
+          <select id="pet-type" name="pet-type" required>
+            <option value="dog">Perro</option>
+            <option value="cat">Gato</option>
+            <option value="other">Otro</option>
+          </select>
+
+          <label for="pet-description">Descripción:</label>
+          <textarea
+            id="pet-description"
+            name="pet-description"
+            rows="4"
+            required
+          ></textarea>
+
+          <button type="submit">Reportar</button>
+        </form>
+      </section>
+    </main>
     <a href="../index.html"><button>Volver inicio</button></a>
     <footer>
       <div class="info">
