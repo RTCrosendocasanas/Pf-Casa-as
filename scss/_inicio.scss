@@ -40,7 +40,7 @@ header {
 .gatitos {
   position: relative;
   img {
-    width: 100%;
+    width: 117%;
     height: 100%;
   }
 }
@@ -68,7 +68,7 @@ header {
       transform: scale(1.1);
       cursor: pointer;
     }
-  
+
     @media screen and (min-width: 768px) and (max-width: 1125px) {
       padding: 5px;
       margin: 5px;
